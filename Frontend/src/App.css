@@ -1,0 +1,60 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin: 50px 0;
+}
+
+header h1 {
+  font-size: 50px;
+  color: #2c3e50;
+  font-weight: normal;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #2c3e50;
+  border: none;
+  border-bottom: 1px solid #2c3e50;
+  outline: none;
+}
+
+.todo-item {
+  background-color: #34495e;
+  padding: 26px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.todo-item span {
+  color: #FFFFFF;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-input {
+  width: 85%;
+  font-size: 12px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+}
